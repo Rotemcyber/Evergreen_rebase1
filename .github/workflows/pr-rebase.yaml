@@ -1,4 +1,4 @@
-on: #Triggered once the ‘/rebase’ comment is written on the **original** git status comment of the pull request
+on: #Triggered once the ‘/rebase’ comment is written on the *original* git status comment of the pull request
   pull_request:
     types: [opened]
 name: Automatic Rebase
